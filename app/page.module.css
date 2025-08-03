@@ -81,17 +81,34 @@
   flex-direction: column;
   align-items: flex-start;
   background-color: #00001A;
-  height: 100%;
+  padding: 2rem 1.5rem;
+}
+
+.newArticles hr {
+  width: 100%;
+  color: white;
+  opacity: 0.6;
 }
 
 .newArticles > p {
   color: #E3A64B;
   font-weight: 700;
   font-size: 2rem;
+  margin: 0;
+  margin-bottom: 0.8rem;
 }
 
-.newArticleCard p {
+.newArticleTitle {
+  font-weight: 800;
   color: white;
+}
+
+.newArticleDescription {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  opacity: 0.6;
 }
 
 .popularArticles {
