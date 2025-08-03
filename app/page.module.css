@@ -21,6 +21,11 @@
   color: #64636B;
 }
 
+.navBarButtons a:hover {
+  text-decoration: none !important;
+  color: #F15D52;
+}
+
 .bannerImage {
   width: 100%;
 }
@@ -67,6 +72,12 @@
   letter-spacing: 2px;
   padding: 15px 30px;
   width: fit-content;
+  cursor: pointer;
+}
+
+.mainText button:hover {
+  background-color: #00001A;
+  color: white;
 }
 
 .middlePage {
@@ -101,6 +112,11 @@
 .newArticleTitle {
   font-weight: 800;
   color: white;
+  cursor: pointer;
+}
+
+.newArticleTitle:hover {
+  color: #E3A64B;
 }
 
 .newArticleDescription {
@@ -141,6 +157,11 @@
   color: #050415;
   font-weight: 800;
   margin: 0;
+  cursor: pointer;
+}
+
+.popularArticleTitle:hover {
+  color: #F15D52;
 }
 
 .popularArticleDescription {
