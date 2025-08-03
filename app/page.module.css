@@ -115,7 +115,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .popularArticle {
@@ -124,10 +124,38 @@
   gap: 1rem;
 }
 
+.popularArticle img {
+  height: 70%;
+  width: 30%;
+  object-fit: contain;
+}
+
+.popularArticleNr {
+  color: #F15D52;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.popularArticleTitle {
+  color: #050415;
+  font-weight: 800;
+  margin: 0;
+}
+
+.popularArticleDescription {
+  font-size: 1rem;
+  color: #64636B;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
 .popularDescription {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  gap: 0.5rem;
 }
 
 

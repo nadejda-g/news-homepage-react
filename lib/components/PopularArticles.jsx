@@ -5,9 +5,9 @@ export default function PopularArticles({src, alt, number, title, description}) 
         <div className={styles.popularArticle}>
             <img src={src} alt={alt}/>
             <div className={styles.popularDescription}>
-                <p>{number}</p>
-                <p>{title}</p>
-                <p>{description}</p>
+                <p className={styles.popularArticleNr}>{number}</p>
+                <p className={styles.popularArticleTitle}>{title}</p>
+                <p className={styles.popularArticleDescription}>{description}</p>
             </div>
         </div>
     )
