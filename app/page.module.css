@@ -10,6 +10,13 @@
   margin-top: 5rem;
 }
 
+.navBarMobile {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+
 .navBarButtons {
   display: flex;
   flex-direction: row;
@@ -179,6 +186,25 @@
   gap: 0.5rem;
 }
 
+.navbarFlyout {
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 100%;
+  z-index: 3;
+
+  transition: all 1s;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.mobileFlyoutContainer {
+  background: white;
+  width: 60%;
+}
 
 @media screen and (max-width: 1200px) {
   .container {
@@ -190,12 +216,38 @@
   .container {
     max-width: 768px;
   }
+
+  .middlePage {
+    grid-template-columns: 1fr;
+  }
+
+  .popularArticles {
+    flex-wrap: wrap;
+  }
+
+  .popularArticle {
+    margin-top: 1rem;
+  }
+
+  .popularArticle img {
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .container {
     max-width: 540px;
   }
+
+  /*.navBar {*/
+  /*  display: none;*/
+  /*}*/
+
+  /*.navBarMobile {*/
+  /*  display: flex;*/
+  /*}*/
 }
 
 @media screen and (max-width: 540px) {
